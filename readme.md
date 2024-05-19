@@ -1,12 +1,10 @@
 # Helpful Assistant Chat Application
 
-This project is a GUI-based chat application designed to assist users with PDF-based queries and image-related queries. It uses the Streamlit framework and leverages the Phi3 Model from LM Studio for the RAG system. The assistant responds to user queries by utilizing the `Ollama` LLM model.
+This project is a GUI-based chat application designed to assist users with queries. It uses the Streamlit framework and leverages the LLama3 Model from Ollama. The assistant responds to user queries by utilizing the `Ollama3` LLM model.
 
 ## Features
 
 - User-friendly interface using Streamlit
-- Handles PDF-based queries
-- Supports image-related queries
 - Utilizes advanced language model (Ollama Llama3)
 - Environment variables management using dotenv
 
@@ -55,8 +53,6 @@ This project is a GUI-based chat application designed to assist users with PDF-b
 ## Code Overview
 
 - **`app.py`**: Main file to run the Streamlit application.
-- **`prompt_template.py`**: Contains the prompt template setup for the assistant.
-- **`dotenv_setup.py`**: Handles loading environment variables from the `.env` file.
 
 ## Example
 
